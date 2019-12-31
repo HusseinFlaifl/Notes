@@ -28,7 +28,6 @@ Button sign_in;
             finish();
         }
 
-        FirebaseAuth.getInstance().sendPasswordResetEmail("a@a.com");
 
         sign_in = (Button) findViewById(R.id.signInBtn);
 
